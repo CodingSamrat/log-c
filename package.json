@@ -1,6 +1,6 @@
 {
   "name": "switch-log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A logger library, where you can enable or disable logging based on env (dev/prod or as you wish)",
   "main": "index.js",
   "type": "module",

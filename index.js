@@ -17,7 +17,7 @@ export default class Log {
 
         const formattedMessage = formatLog(level, message);
         // Disable Log
-        if (this.option?.disabled === true) {
+        if (this.option?.disabled !== true) {
             console.log(formattedMessage);
         }
     }
